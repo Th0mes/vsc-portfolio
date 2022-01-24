@@ -1,13 +1,13 @@
 import type { GetStaticProps, NextPage } from 'next'
 
-const Home: NextPage = () => {
-  return <div></div>
+const About: NextPage = () => {
+  return <h1>About</h1>
 }
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
-    props: { title: 'Home' }
+    props: { title: 'About' }
   }
 }
 
-export default Home
+export default About
