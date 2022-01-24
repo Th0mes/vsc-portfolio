@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import Explorer from 'src/Explorer'
+import Explorer from 'src/components/Explorer'
 import BottomBar from '../BottomBar'
 import Sidebar from '../Sidebar'
 import TitleBar from '../TitleBar'
